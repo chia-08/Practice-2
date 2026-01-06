@@ -2,7 +2,7 @@ import cv2
 import os
 
 from PIL import Image, ImageFilter
-image=Image.open('myphoto.jpg.jpg')
+image=Image.open('myphoto.jpg')
 print(image.mode,image.format)
 input("Press RUN to 繼續...")
 
